@@ -1,0 +1,144 @@
+body {
+    color: #ffffff;
+    background-image: url(photo_2026-03-28_22-17-45.jpg);            
+    
+    
+    /* إضافات عشان التنسيق يكون مظبوط */
+    margin: 0; 
+    padding: 0;
+    font-family: 'Tajawal', sans-serif; 
+}
+    #home{
+        text-align: center;
+        font-size: large;
+    }
+    .AI{
+        display: inline-block;
+        flex: 1 1 250px; max-width: 350px; text-align: center;
+    }
+     #video{
+        text-align: center;
+        font-size: large;
+    }
+    .ai{
+        display: inline-block;
+        width: 100%; max-width: 700px; margin: auto;
+    }
+    p{
+        font-size: large;
+    }
+    #header{
+        font-size:20px;
+        margin: 10px;
+        border: #38bdf8;
+        border-style: dotted;
+        background-image: url(AI\ tools.jpg);
+    }
+    .table-section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* عشان الخطوط متبقاش مزدوجة */
+    margin-top: 30px;
+    background-color: #1e293b;
+    border-radius: 15px;
+    overflow: hidden; /* عشان الحواف المنحنية تبان */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+}
+
+th {
+    background-color: #38bdf8;
+    color: #0b1120;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+}
+
+tr:hover {
+    background-color: #334155; /
+    transition: 0.3s;
+}
+
+tr:last-child td {
+    border-bottom: none; /* شيل الخط من آخر صف */
+}
+mark {
+    background-color: #38bdf8;
+    padding: 2px 5px;          /* مساحة صغيرة حول الكلمة عشان متبقاش مخنوقة */
+    border-radius: 5px;        /* حواف ناعمة للهايلايت */
+}
+/* 1. تلوين الحاوية الخارجية والحدود */
+.accordion-item {
+    background-color: #1e293b !important; /* لون غامق زي الجدول */
+    border: 1px solid #334155 !important;
+    color: white !important;
+}
+
+/* 2. تلوين رأس الـ Accordion (الزرار) */
+.accordion-button {
+    background-color: #1e293b !important;
+    color: #38bdf8 !important; /* لون لبني زي الجدول */
+    font-weight: bold;
+}
+
+/* 3. تلوين الزرار لما يكون مفتوح (Active) */
+.accordion-button:not(.collapsed) {
+    background-color: #334155 !important; /* أفتح شوية */
+    color: #000000 !important; /* لون ذهبي زي عناوين الجدول */
+    box-shadow: none !important; /* شيل الظل الأزرق بتاع بوتستراب */
+}
+
+/* 4. تلوين النص اللي جوه لما يفتح */
+.accordion-body {
+    background-color: #0f172a !important;
+    color: #cbd5e1 !important;
+}
+
+/* 5. تغيير لون السهم الصغير */
+.accordion-button::after {
+    filter: invert(1); /* بيخلي السهم أبيض عشان يبان في الخلفية الغامقة */
+}
+.main-footer {
+    background-color: #0f172a; /* لون غامق متناسق مع الـ Accordion */
+    color: #94a3b8; /* لون نص رمادي فاتح هادي */
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #334155; /* خط رفيع بيفصل الفوتر عن بقية الصفحة */
+    margin-top: 50px; /* مسافة بينه وبين المحتوى اللي فوقه */
+}
+
+.main-footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info span {
+    color: #38bdf8; /* لون لبني للعنوان الجانبي عشان يشد العين */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.hover-text {
+    transition: 0.3s; /* عشان اللون يتغير بنعومة مش فجأة */
+    cursor: pointer;   /* عشان الماوس يتحول لشكل إيد لما يلمسه */
+}
+
+.hover-text:hover {
+    color: #38bdf8 !important; /* اللون اللي هيظهر لما تلمسه بالماوس */
+    text-shadow: 0 0 8px rgba(56, 189, 248, 0.6); /* تأثير إضاءة خفيف (Glow) */
+}
